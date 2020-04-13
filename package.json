@@ -1,0 +1,58 @@
+{
+  "name": "bloggify-bloggify-quick-start",
+  "version": "2.0.0",
+  "description": "A simple example of a Bloggify app.",
+  "main": "bloggify.json",
+  "scripts": {
+    "start": "bloggify-prod-start",
+    "start:dev": "bloggify start"
+  },
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
+  "license": "MIT",
+  "dependencies": {
+    "bloggify": "^1.4.6",
+    "bloggify-emoji": "^3.0.0",
+    "bloggify-markdown-adapter": "^2.0.6",
+    "bloggify-markdown-highlight": "^2.0.1",
+    "bloggify-theme-light": "^2.0.5"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bloggify/bloggify-quick-start/issues"
+  },
+  "blah": {
+    "title": "Bloggify Quick Start App",
+    "installation_command": {
+      "content": [
+        "# Clone this repository",
+        "git clone https://github.com/Bloggify/bloggify-quick-start",
+        "",
+        "# Install the dependencies",
+        "cd bloggify-quick-start && npm i",
+        "",
+        "# Start the app in dev mode",
+        "npm run start:dev"
+      ],
+      "language": "bash"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloggify/bloggify-quick-start.git"
+  },
+  "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme",
+  "devDependencies": {
+    "bloggify-cli": "^1.4.6"
+  }
+}
